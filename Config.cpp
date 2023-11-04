@@ -17,7 +17,7 @@ class CfgMods
 		action = "";
 		hideName = 1;
 		hidePicture = 1;
-		name = "mymod";
+		name = "BillboardZ_retextures";
 		credits = "Knaze/Thyers";
 		author = "Knaze/Thyers";
 		authorID = "0";
