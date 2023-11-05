@@ -44,6 +44,7 @@ class CfgVehicles
 	class land_WallBB;	
 	class land_Billboard_Light;
 	class land_Billboard_NoLight;
+	class land_Roadblock_base;
 	
 //--------------------------ROTATING_SIGN----------------------------------------------------
 	class BZ_Rotating_sign_retex: rot_sign_base
@@ -162,7 +163,15 @@ class CfgVehicles
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};		
 		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Billboard_Light\POSTERS_co.paa"};
-	};		
+	};
+	
+//--------------------------Road Block-------------------------------------------------------	
+	class BZ_Roadblock_retex: land_Roadblock_base
+	{
+		scope = 1;
+		hiddenSelections[]={"POSTERS"};		
+		hiddenSelectionsTextures[] = {"BillboardZ-Retexture\Data\Roadblock\Poster_co.paa"};
+	};	
 };
 
 
