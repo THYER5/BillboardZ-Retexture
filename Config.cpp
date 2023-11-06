@@ -169,7 +169,7 @@ class CfgVehicles
 	class BZ_Roadblock_retex: land_Roadblock_base
 	{
 		scope = 1;
-		hiddenSelections[]={"POSTERS"};		
+		hiddenSelections[]={"posters"};		
 		hiddenSelectionsTextures[] = {"BillboardZ-Retexture\Data\Roadblock\Poster_co.paa"};
 	};	
 };
