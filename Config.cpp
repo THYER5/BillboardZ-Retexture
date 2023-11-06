@@ -51,7 +51,7 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"faces"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Rotating_signs\face_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-Retexture\Data\Rotating_signs\face_co.paa"};
 	};
 //--------------------------RETEX SIGNS------------------------------------------------------
 
@@ -59,42 +59,42 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"rectanglesign"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Retex_signs\rectanglesign.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-Retexture\Data\Retex_signs\rectanglesign.paa"};
 	};
 	
 	class BZ_Squaresign_sign_retex: squaresign_base
 	{
 		scope = 1;
 		hiddenSelections[]={"squaresign"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Retex_signs\squaresign.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Retex_signs\squaresign.paa"};
 	};
 
 	class BZ_Trianglesign_sign_retex: trianglesign_base
 	{
 		scope = 1;
 		hiddenSelections[]={"trianglesign"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Retex_signs\trianglesign.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Retex_signs\trianglesign.paa"};
 	};
 
 	class BZ_Trianglesign_warning_sign_retex: trianglewithwarning_base
 	{
 		scope = 1;
 		hiddenSelections[]={"trianglewithwarning"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Retex_signs\trianglewithwarning.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Retex_signs\trianglewithwarning.paa"};
 	};
 
 	class BZ_Wallsign_sign_retex: wallsign_base
 	{
 		scope = 1;
 		hiddenSelections[]={"wallsign"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Retex_signs\wallsign.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Retex_signs\wallsign.paa"};
 	};
 
 	class BZ_Bigsign_sign_retex: bigsign_base
 	{
 		scope = 1;
 		hiddenSelections[]={"bigsign"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Retex_signs\bigsign.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Retex_signs\bigsign.paa"};
 	};		
 
 //--------------------------LED_Sign-------------------------------------------------------
@@ -103,16 +103,16 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};
-		hiddenSelectionsMaterials[]={"BillboardZ_retextures\Data\LED_Sign\Wallmounted\POSTER.rvmat"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\LED_Sign\Wallmounted\POSTERS_co.paa"};
+		hiddenSelectionsMaterials[]={"BillboardZ-retexture\Data\LED_Sign\Wallmounted\POSTER.rvmat"};		
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\LED_Sign\Wallmounted\POSTERS_co.paa"};
 	};
 	
 	class BZ_LED_Wall_retex: land_LED_Wall
 	{
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};
-		hiddenSelectionsMaterials[]={"BillboardZ_retextures\Data\LED_Sign\standing\POSTER.rvmat"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\LED_Sign\standing\POSTERS_co.paa"};
+		hiddenSelectionsMaterials[]={"BillboardZ-retexture\Data\LED_Sign\standing\POSTER.rvmat"};		
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\LED_Sign\standing\POSTERS_co.paa"};
 	};
 
 //--------------------------Climable billboard---------------------------------------------
@@ -121,14 +121,14 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"FACE"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\climable_billboard\FACE_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\climable_billboard\FACE_co.paa"};
 	};
 
 	class BZ_Billboard_no_lights_retex: climable_billboard_base_no_light
 	{
 		scope = 1;
 		hiddenSelections[]={"FACE"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\climable_billboard\FACE_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\climable_billboard\FACE_co.paa"};
 	};
 
 //--------------------------Changable billboard--------------------------------------------------
@@ -137,7 +137,7 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"face"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Changable_billboard\faces_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Changable_billboard\faces_co.paa"};
 	};
 
 //--------------------------BillBoard Wall-------------------------------------------------------
@@ -146,7 +146,7 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"poster"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\BillBoard_Wall\poster_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\BillBoard_Wall\poster_co.paa"};
 	};
 
 //--------------------------Billboard Light-------------------------------------------------------
@@ -155,14 +155,14 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Billboard_Light\POSTERS_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Billboard_Light\POSTERS_co.paa"};
 	};
 	
 	class BZ_Billboard_NoLight_retex: land_Billboard_NoLight
 	{
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};		
-		hiddenSelectionsTextures[] = {"BillboardZ_retextures\Data\Billboard_Light\POSTERS_co.paa"};
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\Billboard_Light\POSTERS_co.paa"};
 	};
 	
 //--------------------------Road Block-------------------------------------------------------	

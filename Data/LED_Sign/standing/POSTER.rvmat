@@ -173,6 +173,6 @@ class Stage7
 };
 class Stage8
 {
-  texture = "BillboardZ_retextures\Data\LED_Sign\standing\POSTERS_co.paa";
+  texture = "BillboardZ-retexture\Data\LED_Sign\standing\POSTERS_co.paa";
   texGen = "0";
 };
