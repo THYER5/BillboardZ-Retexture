@@ -1,7 +1,7 @@
 # BillboardZ-Retexture
 Source files for retexturing BillboardZ DayZ Mod by THYER5 and Knaze.
 
-This mod structure contains all the files and code necessary to retexture our BillboardZ Mod <LINK>.  You can find tutorial videos on how to acheive this here http://www.youtube.com/@THYERS when available.
+This mod structure contains all the files and code necessary to retexture our BillboardZ Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3073465081 .  You can find a tutorial video on how to acheive this here https://www.youtube.com/watch?v=5lRI38DoBrs
 
 All models in this mod were created by THYER5 and KNAZE.  This mod is designed with Server Owners in mind, offering the ability to control the Billboards and Signs we offer instead of paying for a repack and still having to do the same work.
 
