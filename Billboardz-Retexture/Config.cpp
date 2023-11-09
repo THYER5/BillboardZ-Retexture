@@ -103,16 +103,16 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};
-		hiddenSelectionsMaterials[]={"BillboardZ-retexture\Data\LED_Sign\Wallmounted\POSTER.rvmat"};		
-		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\LED_Sign\Wallmounted\POSTERS_co.paa"};
+		hiddenSelectionsMaterials[]={"BillboardZ-retexture\Data\LED_Sign\standing\POSTER.rvmat"};		
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\LED_Sign\standing\POSTERS_co.paa"};
 	};
 	
 	class BZ_LED_Wall_retex: land_LED_Wall
 	{
 		scope = 1;
 		hiddenSelections[]={"POSTERS"};
-		hiddenSelectionsMaterials[]={"BillboardZ-retexture\Data\LED_Sign\standing\POSTER.rvmat"};		
-		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\LED_Sign\standing\POSTERS_co.paa"};
+		hiddenSelectionsMaterials[]={"BillboardZ-retexture\Data\LED_Sign\Wallmounted\POSTER.rvmat"};		
+		hiddenSelectionsTextures[] = {"BillboardZ-retexture\Data\LED_Sign\Wallmounted\POSTERS_co.paa"};
 	};
 
 //--------------------------Climable billboard---------------------------------------------
