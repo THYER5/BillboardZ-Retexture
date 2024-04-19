@@ -45,7 +45,6 @@ class CfgVehicles
 	class land_Billboard_Light;
 	class land_Billboard_NoLight;
 	class land_Roadblock_base;
-	class lands_billboard;
 //--------------------------ROTATING_SIGN----------------------------------------------------
 	class BZ_Rotating_sign_retex: rot_sign_base
 	{
